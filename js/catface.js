@@ -1,5 +1,6 @@
 $.getScript("http://static.codevinsky.com/catface/js/objectdetect.min.js", function(data, textStatus, jqxhr) {
 	images = $('img');
+	console.log(images);
 	console.log(images.length + ' images found');
 	images.forEach(function(image,index,array) {
 		$(images).objectdetect("all", {classifier: objectdetect.frontalface}, function(faces) {
@@ -8,5 +9,6 @@ $.getScript("http://static.codevinsky.com/catface/js/objectdetect.min.js", funct
 				$(this).highlight(faces[i], "red");
 			}
 		});
-	});
+	})
+	
 });
