@@ -1,1 +1,1 @@
-javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://static.codevinsky.com/catface/catface.js';})();
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://static.codevinsky.com/catface/js/catface.js';})();
